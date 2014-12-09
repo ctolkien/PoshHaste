@@ -17,4 +17,15 @@ Accepts pipelined input:
 cat whatsup.text | Invoke-Haste
 ```
 
-That's it!
+
+You can also override the Hastebin URI if you're running your own server:
+
+```
+cat whatsup.text | Invoke-Haste -serviceUrl http://myserver.com
+```
+
+```
+get-help invoke-haste
+```
+
+For more help.
